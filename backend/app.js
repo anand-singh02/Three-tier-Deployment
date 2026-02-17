@@ -23,6 +23,6 @@ try {
 //     res.send('HOLA MUNDO')
 // })
 
-app.listen(8000, () => {
+app.listen(8000, '0.0.0.0', () => {
     console.log('Server UP running in http://localhost:8000/')
 })
